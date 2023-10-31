@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A11DCEB12AF067A500DC3F75 /* blah2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEB02AF067A500DC3F75 /* blah2App.swift */; };
-		A11DCEB32AF067A500DC3F75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEB22AF067A500DC3F75 /* ContentView.swift */; };
 		A11DCEB52AF067A700DC3F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DCEB42AF067A700DC3F75 /* Assets.xcassets */; };
 		A11DCEB82AF067A700DC3F75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DCEB72AF067A700DC3F75 /* Preview Assets.xcassets */; };
+		A11DCEC02AF0695E00DC3F75 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEBF2AF0695E00DC3F75 /* Result.swift */; };
+		A11DCEC22AF0808900DC3F75 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEC12AF0808900DC3F75 /* Message.swift */; };
+		A11DCEC42AF0884300DC3F75 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEC32AF0884300DC3F75 /* Bytes.swift */; };
+		A11DCEC62AF0899A00DC3F75 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEC52AF0899A00DC3F75 /* Question.swift */; };
+		A11DCEC82AF08A3500DC3F75 /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEC72AF08A3500DC3F75 /* IP.swift */; };
+		A11DCECA2AF08C1300DC3F75 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCEC92AF08C1300DC3F75 /* Data+Extensions.swift */; };
+		A11DCECC2AF09FA900DC3F75 /* Integer+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCECB2AF09FA900DC3F75 /* Integer+Data.swift */; };
+		A11DCECE2AF0AEDB00DC3F75 /* ResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCECD2AF0AEDB00DC3F75 /* ResultRow.swift */; };
+		A11DCED02AF0B26A00DC3F75 /* ResultList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DCECF2AF0B26A00DC3F75 /* ResultList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A11DCEAD2AF067A500DC3F75 /* blah2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blah2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11DCEB02AF067A500DC3F75 /* blah2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blah2App.swift; sourceTree = "<group>"; };
-		A11DCEB22AF067A500DC3F75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A11DCEB42AF067A700DC3F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11DCEB72AF067A700DC3F75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A11DCEB92AF067A700DC3F75 /* blah2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = blah2.entitlements; sourceTree = "<group>"; };
+		A11DCEBF2AF0695E00DC3F75 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		A11DCEC12AF0808900DC3F75 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A11DCEC32AF0884300DC3F75 /* Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bytes.swift; sourceTree = "<group>"; };
+		A11DCEC52AF0899A00DC3F75 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A11DCEC72AF08A3500DC3F75 /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		A11DCEC92AF08C1300DC3F75 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		A11DCECB2AF09FA900DC3F75 /* Integer+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer+Data.swift"; sourceTree = "<group>"; };
+		A11DCECD2AF0AEDB00DC3F75 /* ResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultRow.swift; sourceTree = "<group>"; };
+		A11DCECF2AF0B26A00DC3F75 /* ResultList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				A11DCEB02AF067A500DC3F75 /* blah2App.swift */,
-				A11DCEB22AF067A500DC3F75 /* ContentView.swift */,
+				A11DCEC52AF0899A00DC3F75 /* Question.swift */,
+				A11DCEC72AF08A3500DC3F75 /* IP.swift */,
+				A11DCEC32AF0884300DC3F75 /* Bytes.swift */,
+				A11DCEC92AF08C1300DC3F75 /* Data+Extensions.swift */,
+				A11DCECB2AF09FA900DC3F75 /* Integer+Data.swift */,
+				A11DCEC12AF0808900DC3F75 /* Message.swift */,
+				A11DCEBF2AF0695E00DC3F75 /* Result.swift */,
+				A11DCECD2AF0AEDB00DC3F75 /* ResultRow.swift */,
+				A11DCECF2AF0B26A00DC3F75 /* ResultList.swift */,
 				A11DCEB42AF067A700DC3F75 /* Assets.xcassets */,
 				A11DCEB92AF067A700DC3F75 /* blah2.entitlements */,
 				A11DCEB62AF067A700DC3F75 /* Preview Content */,
@@ -139,7 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11DCEB32AF067A500DC3F75 /* ContentView.swift in Sources */,
+				A11DCEC82AF08A3500DC3F75 /* IP.swift in Sources */,
+				A11DCEC02AF0695E00DC3F75 /* Result.swift in Sources */,
+				A11DCEC22AF0808900DC3F75 /* Message.swift in Sources */,
+				A11DCEC42AF0884300DC3F75 /* Bytes.swift in Sources */,
+				A11DCED02AF0B26A00DC3F75 /* ResultList.swift in Sources */,
+				A11DCEC62AF0899A00DC3F75 /* Question.swift in Sources */,
+				A11DCECE2AF0AEDB00DC3F75 /* ResultRow.swift in Sources */,
+				A11DCECA2AF08C1300DC3F75 /* Data+Extensions.swift in Sources */,
+				A11DCECC2AF09FA900DC3F75 /* Integer+Data.swift in Sources */,
 				A11DCEB12AF067A500DC3F75 /* blah2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = blah2/blah2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -298,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = blah2/blah2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
